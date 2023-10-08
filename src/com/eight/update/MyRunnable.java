@@ -1,12 +1,10 @@
-package com.eight.update;
+package com.eight.updates;
 
- class MyRunnable implements Runnable {
-	 
-	 public void run() {
-		 for (int i=0;i<10;i++ ) {
-			 System.out.println("Thread Child");
-		 }
-	 }
-	
+public class MyRunnable implements Runnable{
 
+
+	public void run() {
+		for ( int i=0;i<10;i++)
+			System.out.println("Thread-MyRunnable-Child"+i);
+	}
 }
